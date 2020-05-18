@@ -1,0 +1,21 @@
+@media (min-width: 360px) {
+    .MainText {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 12px;
+        max-width: 90%;
+        .text {
+            font-family: Nunito Sans, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            /* or 157% */
+            text-align: center;
+
+            /* paragraph */
+            color: #707181;
+        }
+    }
+}

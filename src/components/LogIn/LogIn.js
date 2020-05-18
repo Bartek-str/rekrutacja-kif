@@ -2,6 +2,7 @@ import React from "react";
 import Circle from "./Circle";
 import Exit from "./Exit";
 import Header from "./Header";
+import MainText from "./MainText";
 
 function LogIn() {
     return (
@@ -9,6 +10,7 @@ function LogIn() {
             <Circle />
             <Exit />
             <Header />
+            <MainText />
         </div>
     );
 }
