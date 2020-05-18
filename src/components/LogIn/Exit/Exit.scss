@@ -2,15 +2,13 @@
     .exitDiv {
         width: calc(100% - 20px);
         height: 48px;
-        margin-top: 20px;
-        margin-right: 20px;
+        margin: 20px 20px 0 0;
         .exit {
             position: relative;
             width: 48px;
             height: 100%;
             float: right;
-            border: 1px solid #DBDCEE;
-            box-sizing: border-box;
+            border: 1px solid $outline;
             border-radius: 10px;
             display: flex;
             justify-content: center;
@@ -21,8 +19,8 @@
             position: absolute;
             content: '';
             width: 20px;
-            height: 2px; /* cross thickness */
-            background-color: #30313D;
+            height: 2px;
+            background-color: $primary_dark;
             border-radius: 2px;
             top: 22px;
         }
@@ -38,8 +36,7 @@
 @media (min-width: 1280px) {
     .exitDiv {
         max-width: 800px - 24px;
-        margin-top: 24px;
-        margin-right: 24px;
+        margin: 24px 24px 0 0;
     }
 }
 

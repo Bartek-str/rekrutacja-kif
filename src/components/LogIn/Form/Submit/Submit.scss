@@ -2,8 +2,7 @@
     .Submit {
         margin-top: 40px;
         height: 48px;
-        /* button_disabled */
-        background: rgba(141, 142, 161, 0.1);
+        background: $button_disabled;
         border: 0;
         border-radius: 4px;
         width: 53%;
@@ -14,9 +13,7 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
-        /* identical to box height, or 114% */
-        /* violet */
-        color: #211965;
+        color: $violet;
     }
 }
 
