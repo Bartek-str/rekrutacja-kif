@@ -1,0 +1,16 @@
+@media (min-width: 360px) {
+    .Header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+        .text {
+            font-family: Nunito Sans, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 22px;
+            color: #30313D;
+        }
+    }
+}
