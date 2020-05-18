@@ -1,9 +1,11 @@
 @media (min-width: 360px) {
     .exitDiv {
-        width: 90%;
+        width: calc(100% - 20px);
         height: 48px;
         margin-top: 20px;
+        margin-right: 20px;
         .exit {
+            position: relative;
             width: 48px;
             height: 100%;
             float: right;
@@ -22,18 +24,22 @@
             height: 2px; /* cross thickness */
             background-color: #30313D;
             border-radius: 2px;
-            left: 81.67%;
-            top: 19.15%;
+            top: 22px;
         }
         .exit::before {
             transform: rotate(45deg);
         }
-
         .exit::after {
             transform: rotate(-45deg);
         }
     }
 }
 
-
+@media (min-width: 1280px) {
+    .exitDiv {
+        max-width: 800px - 24px;
+        margin-top: 24px;
+        margin-right: 24px;
+    }
+}
 

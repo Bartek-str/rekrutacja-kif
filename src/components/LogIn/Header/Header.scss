@@ -14,3 +14,13 @@
         }
     }
 }
+
+@media (min-width: 1280px) {
+    .Header {
+        margin-top: 48px;
+        .text {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+}

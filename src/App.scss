@@ -1,8 +1,14 @@
 .App {
-    width: 100vw;
-    height: 100vh;
-    background: rgba(48, 49, 61, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
+}
+
+@media (min-width: 360px) {
+    .App {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(48, 49, 61, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

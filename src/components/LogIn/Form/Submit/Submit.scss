@@ -6,7 +6,9 @@
         background: rgba(141, 142, 161, 0.1);
         border: 0;
         border-radius: 4px;
-        width: 55%;
+        width: 53%;
+        min-width: 139px;
+        max-width: 150px;
         font-family: Nunito, sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -15,5 +17,11 @@
         /* identical to box height, or 114% */
         /* violet */
         color: #211965;
+    }
+}
+
+@media (min-width: 1280px) {
+    .Submit {
+        height: 54px;
     }
 }

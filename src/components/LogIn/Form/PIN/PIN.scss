@@ -22,3 +22,14 @@
         }
     }
 }
+
+@media (min-width: 1280px) {
+    .PIN {
+        & > input {
+            font-family: Nunito, sans-serif;
+            margin-left: 30px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+}

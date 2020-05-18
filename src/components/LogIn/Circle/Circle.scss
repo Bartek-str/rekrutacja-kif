@@ -9,12 +9,20 @@
         height: 80px;
         border-radius: 50%;
         background: #FF7165;
-        top: 40px;
+        top: -40px;
         display: flex;
         justify-content: center;
         align-items: center;
         .lock {
             display: block;
         }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Circle {
+        top: -50px;
+        width: 100px;
+        height: 100px;
     }
 }

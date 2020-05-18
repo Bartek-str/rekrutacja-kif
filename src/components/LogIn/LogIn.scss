@@ -1,7 +1,11 @@
 @media (min-width: 360px) {
     .LogIn {
+        position: relative;
         width: 91%;
-        height: 75%;
+        max-width: 800px;
+        min-height: 468px;
+        height: 73%;
+        max-height: 488px;
         background: #FFFFFF;
         border-radius: 16px;
         display: flex;

@@ -19,3 +19,13 @@
         }
     }
 }
+
+@media (min-width: 1280px) {
+    .MainText {
+        margin-top: 20px;
+        .text {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+}
