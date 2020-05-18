@@ -4,6 +4,7 @@ import Exit from "./Exit";
 import Header from "./Header";
 import MainText from "./MainText";
 import Form from "./Form";
+import BottomText from "./BottomText";
 
 function LogIn() {
     return (
@@ -13,6 +14,7 @@ function LogIn() {
             <Header />
             <MainText />
             <Form />
+            <BottomText />
         </div>
     );
 }
