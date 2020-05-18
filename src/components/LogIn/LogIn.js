@@ -3,6 +3,7 @@ import Circle from "./Circle";
 import Exit from "./Exit";
 import Header from "./Header";
 import MainText from "./MainText";
+import PIN from "./PIN";
 
 function LogIn() {
     return (
@@ -11,6 +12,7 @@ function LogIn() {
             <Exit />
             <Header />
             <MainText />
+            <PIN />
         </div>
     );
 }
