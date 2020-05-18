@@ -3,14 +3,18 @@
         position: relative;
         width: 91%;
         max-width: 800px;
-        min-height: 468px;
-        height: 73%;
-        max-height: 488px;
+        height: 468px;
         background: #FFFFFF;
         border-radius: 16px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .LogIn {
+        height: 488px;
     }
 }
