@@ -4,7 +4,7 @@ import Lock from '../../../assets/Union.svg'
 function Circle() {
     return (
         <div className="Circle">
-            <img src={Lock} alt='lock' />
+            <img src={Lock} alt='lock' className='lock' />
         </div>
     );
 }

@@ -1,0 +1,39 @@
+@media (min-width: 360px) {
+    .exitDiv {
+        width: 90%;
+        height: 48px;
+        margin-top: 20px;
+        .exit {
+            width: 48px;
+            height: 100%;
+            float: right;
+            border: 1px solid #DBDCEE;
+            box-sizing: border-box;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .exit::before,
+        .exit::after {
+            position: absolute;
+            content: '';
+            width: 20px;
+            height: 2px; /* cross thickness */
+            background-color: #30313D;
+            border-radius: 2px;
+            left: 81.67%;
+            top: 19.15%;
+        }
+        .exit::before {
+            transform: rotate(45deg);
+        }
+
+        .exit::after {
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+
+

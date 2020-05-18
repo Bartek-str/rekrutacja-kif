@@ -1,3 +1,7 @@
+.lock {
+    display: none;
+}
+
 @media (min-width: 360px) {
     .Circle {
         position: absolute;
@@ -9,5 +13,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        .lock {
+            display: block;
+        }
     }
 }
