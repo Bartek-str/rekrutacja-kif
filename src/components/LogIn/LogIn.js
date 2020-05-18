@@ -3,7 +3,7 @@ import Circle from "./Circle";
 import Exit from "./Exit";
 import Header from "./Header";
 import MainText from "./MainText";
-import PIN from "./PIN";
+import Form from "./Form";
 
 function LogIn() {
     return (
@@ -12,7 +12,7 @@ function LogIn() {
             <Exit />
             <Header />
             <MainText />
-            <PIN />
+            <Form />
         </div>
     );
 }
