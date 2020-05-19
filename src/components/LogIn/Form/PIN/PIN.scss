@@ -21,6 +21,22 @@
             margin-left: 0;
         }
     }
+    .SubmitDisabled {
+        margin-top: 40px;
+        height: 48px;
+        background: $button_disabled;
+        border: 0;
+        border-radius: 4px;
+        width: 53%;
+        min-width: 139px;
+        max-width: 150px;
+        font-family: Nunito, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: $violet;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -31,5 +47,8 @@
             font-size: 16px;
             line-height: 16px;
         }
+    }
+    .SubmitDisabled {
+        height: 54px;
     }
 }
